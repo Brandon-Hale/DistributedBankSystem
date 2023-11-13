@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+@model UsersModel
+
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <title>@ViewData["Title"]</title>
+</head>
+
+<body>
+    <div id="users">
+        <input type="text" id="searchBar" onkeyup="search()" placeholder="Search Users by Name ...">
+
+        <button id="new-user-button">Create User</button>
+
+        <div id="transaction-list-container">
+            <ul id="users-list">
+                @foreach (User user in Model.Users)
+                {
+                    <li>
+                        <strong>Name: </strong><class>@user.Name</class><br />
+                        <strong>Email: </strong>@user.Email<br />
+                        <strong>Address: </strong>@user.Address<br />
+                        <strong>Phone No: </strong>@user.PhoneNo<br />
+                        <button onclick="editUser(@user.UserId)">Edit Details</button>
+                        <button onclick="userTransactions(@user.UserId)">Transactions</button>
+                        <button onclick="deleteUser(@user.UserId)">Delete</button>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+
+    <script src="~/js/dashboard.js"></script>
+</body>

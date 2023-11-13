@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Transaction History";
+}
+
+@model List<BankWebApp.Models.Transaction>
+
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <title>@ViewData["Title"]</title>
+</head>
+
+<body>
+    <div id="transaction-history">
+        <h2>Transaction History</h2>
+
+        <input type="text" id="searchBar" onkeyup="search()" placeholder="Search Transactions By Account Number ...">
+
+        <div id="transaction-list-container">
+            <ul id="transaction-list">
+                @foreach (var transaction in Model)
+                {
+                    <li>
+                        <strong>Transaction ID:</strong> @transaction.TransactionId<br />
+                        <strong>From Account:</strong> <class>@transaction.FromAccount</class><br />
+                        <strong>To Account:</strong> <class>@transaction.ToAccount</class><br />
+                        <strong>Amount:</strong> @transaction.Amount
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+
+    <script src="~/js/transactionHistory.js?"></script>
+</body>

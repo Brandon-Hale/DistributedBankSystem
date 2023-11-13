@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/tabselector.css" asp-append-version="true" />
+</head>
+
+<body onload="checkAdmin();loadDashboard()">
+    <h1>@ViewData["Title"]</h1>
+
+    <nav class="tab-nav" id="dashboard-tabs">
+        <ul>
+            <li><a href="#" onclick="loadDashboard()">Information</a></li>
+            <li><a href="#" onclick="loadDashboard('edit')">Edit</a></li>
+        </ul>
+    </nav>
+
+    <div id="dashboard-body">
+
+    </div>
+    <script src="~/js/dashboard.js"></script>
+</body>
+
+<script>
+    function checkAdmin() {
+        console.log('Check Admin Ran');
+        var user = '@ViewBag.User';
+
+        if (user === 'admin') {
+            var list = $("#dashboard-tabs").find('ul');
+            list.append('<li><a href="#" onclick="loadDashboard(\'users\')">User Accounts</a></li>');
+        }
+    }
+</script>
+

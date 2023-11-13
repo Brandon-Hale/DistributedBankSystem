@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Transactions";
+}
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/tabselector.css" asp-append-version="true" />
+</head>
+<body onload="checkAdmin('@ViewBag.User');loadTransaction()">
+    <h1>@ViewData["Title"]</h1>
+
+    <nav class="tab-nav" id="transaction-tabs">
+        <ul>
+            <li><a href="#" onclick="loadTransaction('@ViewBag.User')">History</a></li>
+            <li id="new-trans-tab"><a href="#" onclick="loadTransaction('new')">Create Transaction</a></li>
+        </ul>
+    </nav>
+
+    <div id="transaction-body">
+
+    </div>
+
+    <script src="~/js/transaction.js"></script>
+</body>

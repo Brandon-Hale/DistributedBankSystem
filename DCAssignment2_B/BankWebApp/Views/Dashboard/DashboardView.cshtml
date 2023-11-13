@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+@model DashboardModel
+
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <title>@ViewData["Title"]</title>
+</head>
+
+<body>
+    <div id="dashboard-container">
+        <div id="user-profile">
+            <h2>User Profile Information</h2>
+            <div id="profile-details">
+                <div id="user-info">
+                    <!-- Display user's name and profile picture -->
+                    <h3>Name: @Model.User.Name</h3>
+                </div>
+
+                <div id="contact-info">
+                    <!-- Display contact information (email, phone number) -->
+                    <p>Email: @Model.User.Email</p>
+                    <p>Phone: @Model.User.PhoneNo</p>
+                    <p>Password: @Model.User.Password</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="account-summary">
+            <h2>Account Summary</h2>
+            <div id="accounts">
+                <!-- Iterate through the filtered bank accounts for the user -->
+                @foreach (var account in Model.BankAccounts)
+                {
+                    <div class="account-item">
+                        <p>Account Number: @account.AccNo</p>
+                        <p>Balance: $@account.Balance</p>
+                        <!-- Button to view transaction history (modify the button as needed) -->
+                        <button class="view-transactions-btn" onclick="redirectToTransactionHistory(@account.AccNo)">View Transactions</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <script src="~/js/dashboard.js"></script>
+</body>

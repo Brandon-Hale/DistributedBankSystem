@@ -1,0 +1,33 @@
+﻿.tab-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+    padding: 15px 0;
+}
+
+.tab-nav li {
+    display: inline;
+    margin: 0;
+}
+
+.tab-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 25px;
+    transition: background-color 0.3s ease;
+}
+
+    .tab-nav a:hover {
+        background-color: #4caf50;
+    }
+
+/* First and Last Child Styles */
+.tab-nav li:first-child a {
+    border-radius: 4px 0 0 4px;
+}
+
+.tab-nav li:last-child a {
+    border-radius: 0 4px 4px 0;
+}

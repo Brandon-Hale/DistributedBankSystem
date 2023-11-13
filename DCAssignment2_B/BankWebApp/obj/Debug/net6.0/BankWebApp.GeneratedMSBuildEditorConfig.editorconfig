@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BankWebApp
+build_property.RootNamespace = BankWebApp
+build_property.ProjectDir = C:\Users\brand\Documents\CodingSource\Git\DCAssignment2_B\DCAssignment2_B\BankWebApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\brand\Documents\CodingSource\Git\DCAssignment2_B\DCAssignment2_B\BankWebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/brand/Documents/CodingSource/Git/DCAssignment2_B/DCAssignment2_B/BankWebApp/Views/Dashboard/DashboardEditView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERhc2hib2FyZEVkaXRWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brand/Documents/CodingSource/Git/DCAssignment2_B/DCAssignment2_B/BankWebApp/Views/Dashboard/DashboardUsersView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERhc2hib2FyZFVzZXJzVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brand/Documents/CodingSource/Git/DCAssignment2_B/DCAssignment2_B/BankWebApp/Views/Dashboard/DashboardView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERhc2hib2FyZFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brand/Documents/CodingSource/Git/DCAssignment2_B/DCAssignment2_B/BankWebApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brand/Documents/CodingSource/Git/DCAssignment2_B/DCAssignment2_B/BankWebApp/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brand/Documents/CodingSource/Git/DCAssignment2_B/DCAssignment2_B/BankWebApp/Views/Home/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brand/Documents/CodingSource/Git/DCAssignment2_B/DCAssignment2_B/BankWebApp/Views/Home/Transaction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmFuc2FjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brand/Documents/CodingSource/Git/DCAssignment2_B/DCAssignment2_B/BankWebApp/Views/Login/LoginAuthenticatedView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5BdXRoZW50aWNhdGVkVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brand/Documents/CodingSource/Git/DCAssignment2_B/DCAssignment2_B/BankWebApp/Views/Login/LoginErrorView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5FcnJvclZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brand/Documents/CodingSource/Git/DCAssignment2_B/DCAssignment2_B/BankWebApp/Views/Login/LoginView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5WaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brand/Documents/CodingSource/Git/DCAssignment2_B/DCAssignment2_B/BankWebApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brand/Documents/CodingSource/Git/DCAssignment2_B/DCAssignment2_B/BankWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brand/Documents/CodingSource/Git/DCAssignment2_B/DCAssignment2_B/BankWebApp/Views/Transaction/TransactionHistoryView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cVHJhbnNhY3Rpb25IaXN0b3J5Vmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brand/Documents/CodingSource/Git/DCAssignment2_B/DCAssignment2_B/BankWebApp/Views/Transaction/TransactionNewView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cVHJhbnNhY3Rpb25OZXdWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brand/Documents/CodingSource/Git/DCAssignment2_B/DCAssignment2_B/BankWebApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brand/Documents/CodingSource/Git/DCAssignment2_B/DCAssignment2_B/BankWebApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brand/Documents/CodingSource/Git/DCAssignment2_B/DCAssignment2_B/BankWebApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bavqod9g5k

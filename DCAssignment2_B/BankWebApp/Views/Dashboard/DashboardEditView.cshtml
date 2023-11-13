@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Edit Dashboard";
+}
+
+@model User
+
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <title>@ViewData["Title"]</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="user-profile-edit">
+            <h2>Edit User Profile</h2>
+            <div id="profile-details">
+                <div id="user-info-edit">
+                    <!-- Input fields for updating user's name and profile picture -->
+                    <div>
+                        <label for="userId">UserId:</label>
+                        <span id="userId">@Model.UserId</span>
+                    </div>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name" value="@Model.Name">
+
+                    <label for="profile-picture">Profile Picture URL:</label>
+                    <input type="text" id="profile-picture" placeholder="Enter profile picture URL">
+                </div>
+
+                <div id="contact-info-edit">
+                    <!-- Input fields for updating email and phone number -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email" value="@Model.Email">
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" placeholder="Enter your phone number" value="@Model.PhoneNo">
+
+                    <div>
+                        <label for="password">Password:</label>
+                        <input type="text" id="password" placeholder="Enter your password" value="@Model.Password">
+                    </div>
+
+                </div>
+
+                <!-- Button to update user profile -->
+            </div>
+        </div>
+
+        <button id="update-profile-btn" class="action-button" onclick="performUpdate()">Update Profile</button>
+
+    </div>
+
+    <script src="~/js/dashboardEdit.js"></script>
+</body>

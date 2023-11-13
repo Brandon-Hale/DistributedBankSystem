@@ -1,0 +1,29 @@
+﻿﻿@{
+    ViewData["Title"] = "New Transaction";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <title>@ViewData["Title"]</title>
+</head>
+
+<body>
+
+    <div id="transaction-form">
+        <label for="transactionId">Transaction ID:</label>
+        <input type="text" id="transactionId" name="transactionId" class="input-field" required />
+
+        <label for="accountNumber">Account Number:</label>
+        <input type="text" id="accountNumber" name="accountNumber" class="input-field" required />
+
+        <label for="toAccountNumber">Recipient's Account Number:</label>
+        <input type="text" id="toAccountNumber" name="toAccountNumber" class="input-field" required />
+
+        <label for="balance">Transaction Amount:</label>
+        <input type="text" id="balance" name="balance" class="input-field" required />
+
+        <button type="button" id="transactionButton" class="action-button" onclick="performTransaction()">Submit</button>
+    </div>
+
+    <script src="~/js/transaction.js"></script>
+</body>
